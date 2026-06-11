@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+/* Navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #000;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+/* Logo */
+
+.logo img{
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Navigation Menu */
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+/* Links */
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+ul li a:hover{
+    color: #ff1e00;
+}
+
+/* Icons */
+
+.fa-cart-shopping,
+.fa-user{
+    font-size: 22px;
+}
+
+.fa-cart-shopping:hover
+{
+    color: #ff0000;
+}
+
+#login-button{
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    padding: 6px 12px;
+}
+
+
+/* Hero section */
+.hero-section{
+    height: 90vh;
+    background-image: url(./images/barger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content{
+    color: #fff;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#btn-order-now {
+    background-color: red;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Login & SignUp */
+
+.auth-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(130deg, black, rgba(99, 99,99, 0.872));
+    height: 100vh;
+}
+
+.auth-box{
+    background: whitesmoke;
+    padding: 40px;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(114, 113, 113, 0.849);
+}
+
+.auth-box h2{
+    margin-bottom: 20px;
+    color: black;
+}
+
+.auth-box input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+.auth-box input:focus{
+    border-color: red;
+}
+
+.auth-box button{
+    width: 100%;
+    padding: 10px;
+    background: darkred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.auth-box button:hover{
+    background-color: rgb(123, 83, 73);
+}
+
+.auth-box p{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.auth-box a{
+    color: red;
+    text-decoration: none;
+
+}
