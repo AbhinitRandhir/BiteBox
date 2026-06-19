@@ -50,18 +50,24 @@
     <!-- Login Form -->
     <section class="auth-container">
         <div class="auth-box">
-        <form action="">
-            <h2>Login to Bite<span style="color: red;">Box</span></h2>
-        </form>
-            <input type="email" placeholder="Enter Email" required>
-            <input type="password" placeholder="Enter Password" required>
-            <button>Login</button>
-            <p><a href="./Signup.html">Forgot Password</a></p>
-            <p>Dont't have an account
-                <a href="./Signup.html">SignUp</a>
-            </p>
+            <form action="">
+                <h2>Login to Bite<span style="color: red;">Box</span></h2>
+                <input type="email" id="email" placeholder="Enter Email" required>
+                <input type="password" id="password" placeholder="Enter Password" required>
+                <p><a href="./Signup.html">Forgot Password</a></p>
+                <p>Dont't have an account
+                    <a href="./Signup.html">SignUp</a>
+                </p>
+
+                <p id="error" style="color: red;"></p>
+
+                <button type="button" onclick="login()">Login</button>
+            </form>
         </div>
     </section>
+    
+
+    <script src="./js/scripts.js"></script>
 </body>
 
 </html>
