@@ -11,6 +11,8 @@ table{
     border-radius: 10px;
     overflow: hidden;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 120px;
 }
 
 thead{

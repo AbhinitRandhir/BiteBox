@@ -51,7 +51,7 @@ ul li a:hover{
 
 .fa-cart-shopping,
 .fa-user{
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .fa-cart-shopping:hover
@@ -63,9 +63,8 @@ ul li a:hover{
     background-color: red;
     color:white;
     border-radius: 5px;
-    padding: 6px 12px;
+    padding: 4px 10px;
 }
-
 
 /* Hero section */
 .hero-section{
@@ -90,6 +89,7 @@ ul li a:hover{
     color: white;
     margin-top: 10px;
 }
+
 
 /* Login & SignUp */
 
@@ -156,3 +156,72 @@ ul li a:hover{
 
 
 
+/* Footer Css */
+footer ul{
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li{
+    margin-bottom: 10px;
+}
+
+footer{
+    background: #000;
+    color: white;
+    padding: 10px;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer-box h2,
+.footer-box h3{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-box span{
+    color: red;
+}
+
+.footer-box p{
+    line-height: 1.6;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: red;
+}
+
+.social-icons a{
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #ccc;
+    background: #222;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.social-icon a:hover{
+    background: red;
+    color: aliceblue;
+}
+
+.footer-bottom{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+    font-size: 14px;
+}

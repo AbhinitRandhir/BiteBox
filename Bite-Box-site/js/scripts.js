@@ -1,3 +1,5 @@
+// Login Function
+
 function login() 
 {
     let email = document.getElementById("email").value;
@@ -13,5 +15,18 @@ function login()
     } 
     else {
         error.innerText = "Invalid email and password";
+    }
+}
+
+
+// Show password icon
+
+function showPassword() {
+    let password = document.getElementById("password");
+
+    if(password.type === "password") {
+        password.type="text";
+    }else {
+        password.type="password";
     }
 }
